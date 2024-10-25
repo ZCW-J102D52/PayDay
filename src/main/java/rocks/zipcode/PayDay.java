@@ -112,7 +112,7 @@ public class PayDay {
         }
     }
 
-    public TimeCard[] createRunData() {
+    private TimeCard[] createRunData() {
         TimeCard[] cards = {
                 new TimeCard("Kris", 21.5, 10.0, 0.05),
                 new TimeCard("Dolio", 23.0, 12.0, 0.05),
